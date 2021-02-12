@@ -40,6 +40,7 @@
     "format:markdown": "prettier --write \"docs/**/*.md\""
   },
   "devDependencies": {
+    "@babel/core": "7.12.16",
     "@babel/preset-env": "7.12.16",
     "@babel/preset-flow": "7.12.13",
     "@types/jest": "^26.0.19",
@@ -59,7 +60,10 @@
     "inquirer": "^7.1.0",
     "jest": "^26.6.3",
     "lerna": "3.22.1",
+    "@octokit/core": "^3.2.5",
     "prettier": "^2.2.1",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
     "rimraf": "^3.0.2",
     "shelljs": "^0.8.3",
     "ts-jest": "^26.5.1",
